@@ -4,7 +4,7 @@ An interactive Tableau dashboard analyzing **95,000+ games** on the Steam platfo
 
 ## Live Dashboard
 
-[View the Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/priyanka.kanojia1211/viz/SteamGamesAnalyticsDashboard95KGamesAnalyzed/)
+[View the Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/priyanka.kanojia1211/viz/SteamGamesAnalyticsDashboard95KGamesAnalyzed/SteamGamesAnalyticsDashboard)
 
 ## Key Insights
 
