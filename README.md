@@ -19,10 +19,9 @@ An interactive Tableau dashboard analyzing **95,000+ games** on the Steam platfo
 
 ## Dashboard Preview
 
-### Full Dashboard
 ![Steam Games Analytics Dashboard](dashboard_preview.png)
 
-### Individual Visualizations
+### Visualizations Included
 
 **Top 25 Games by Peak Players (Bubble Chart)**
 - Bubble size represents peak concurrent players
@@ -59,9 +58,6 @@ An interactive Tableau dashboard analyzing **95,000+ games** on the Steam platfo
 ```
 steam-games-analytics-dashboard/
 ├── Steam_Games_Analysis.ipynb     # Jupyter notebook with full analysis
-├── steam_tableau_ready.csv        # Cleaned dataset for Tableau
-├── steam_games_cleaned.csv        # Intermediate cleaned dataset
-├── steam_games.db                 # SQLite database
 ├── dashboard_preview.png          # Dashboard screenshot
 └── README.md
 ```
@@ -110,6 +106,8 @@ steam-games-analytics-dashboard/
 - **Size:** 471MB, 94,948 games, 47 features
 - **Time Period:** Games released from 1997 to March 2025
 
+> Note: The raw dataset (471MB) exceeds GitHub's file size limit. Download it directly from Kaggle and run the notebook to generate the cleaned dataset.
+
 ## How to Run
 
 ```bash
@@ -124,11 +122,14 @@ source venv/bin/activate
 # Install dependencies
 pip install pandas numpy sqlalchemy jupyter
 
+# Download the dataset from Kaggle
+# https://www.kaggle.com/datasets/artermiloff/steam-games-dataset
+# Place the CSV file in the project folder
+
 # Run the notebook
 jupyter notebook Steam_Games_Analysis.ipynb
 
-# Open the Tableau dashboard
-# Connect Tableau to steam_tableau_ready.csv
+# Open the cleaned CSV in Tableau to explore the dashboard
 ```
 
 ## Author
